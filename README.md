@@ -6,7 +6,7 @@ A slight modification of the deep ResNet architecture pretrained on BP4D FAU dat
 
 The repository contains following files- 
 * `train.py`, `nerwork.py` and `run_demo.py` - These files are used to implement ResNet and train our model on a sample data for FAU Intensity prediction.   
-* `procrustes.py`- For performing procrustes analysis (facial alignment).  
+* `procrustes.py`- For performing [procrustes analysis](https://bmvc2019.org/wp-content/uploads/papers/0403-paper.pdf) (facial alignment).  
 * [model.pth](https://drive.google.com/file/d/1XYCoLtApTHq89_s3gf6Lh6U2kMP80oCH/view?usp=sharing) - Trained model on BP4D data
 
 <p align="center"><img src="bottleneck.PNG" height="200" width="400"><img src="deconv.PNG" height="400" width="200"></p>
